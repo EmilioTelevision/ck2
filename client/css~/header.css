@@ -1,0 +1,24 @@
+#header_wrap {
+background: url('../../images/left_glow-4.png') center top no-repeat;
+height: 238px;
+}
+.header_inner {
+width:960px;
+margin:0 auto;
+padding-top:15px;
+}
+.logo {
+width:360px;
+height:69px;
+background: url('../../images/logo-3.png') center top no-repeat;
+cursor:pointer;	
+}
+.nav {
+float:right;
+margin-top: -39px;
+}
+.nav li {
+display:inline;
+float:left;
+margin-right:40px;
+}

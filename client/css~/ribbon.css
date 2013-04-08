@@ -1,0 +1,45 @@
+#ribbon {
+position:absolute;
+width: 199px;
+height:487px;
+background:  url('../../images/ribbon.png') no-repeat;
+left: 50%;
+margin-left: 277px;
+}
+.annoucements {
+width: 142px;
+height:23px;
+background:  url('../../images/copy5.png') no-repeat;	
+margin-left: 33px;
+color:white;
+font-size:12px;
+text-align:center;
+text-indent:-10px;
+line-height:1.7;
+text-shadow: 1px 2px rgb(113, 110, 110);
+cursor:pointer;
+}
+.tap {
+width: 113px;
+height:383px;
+background:  url('../../images/tap-2.png') no-repeat;
+margin-left:40px;
+margin-top:10px;	
+}
+.order {
+width: 153px;
+height:32px;
+background:  url('../../images/Rectangle2-1.png')0 0 no-repeat;
+margin-left:27px;
+margin-top:-20px;
+cursor:pointer;	
+color:white;
+text-align:center;
+text-indent:-10px;
+line-height:1.7;
+text-shadow: 1px 2px rgb(0, 0, 0);
+}
+.order:hover{
+background:  url('../../images/Rectangle2-1.png')0 -32px no-repeat;
+
+}

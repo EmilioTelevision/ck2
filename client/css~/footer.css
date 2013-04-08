@@ -1,0 +1,41 @@
+#footer_wrap {
+position:absolute;
+bottom:0px;
+height:80px;
+width:100%;
+background:#1d2025;
+}
+#footer {
+width:960px;
+margin:0 auto;
+}
+.flavors, .products, .locations, .purchase {
+width:220px;
+height:80px;
+border-left:1px solid rgba(74, 75, 75, 0.5);
+text-indent:15px;
+float: left;
+line-height:4;
+font-size:22px;
+font-weight:normal;
+}
+.search {
+width: 74px;
+height:80px;
+border-left:1px solid rgba(74, 75, 75, 0.5);
+border-right:1px solid rgba(74, 75, 75, 0.5);
+text-indent:15px;
+float: left;
+line-height:4;
+font-size:22px;	
+}
+#footer img {
+margin-left:70px;
+}
+.flavors {	
+}
+.products {
+}
+#footer a {
+border-bottom:none;	
+}

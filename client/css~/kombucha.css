@@ -1,0 +1,45 @@
+#kombucha_wrap {
+padding-left: 12px;
+width:960px;
+margin:0 auto;
+position: relative;
+}
+.kombucha {
+background: url('../../images/tap-1.png') no-repeat;
+width:368px;
+height:500px;	
+position: absolute;
+right: 104px;
+top: -186px;
+z-index: -2;
+}
+.learn {
+background: url('../../images/hover-1.png') 0 0 no-repeat;
+width:175px;
+height:52px;
+font-size:22px;
+color:white;
+text-align:center;
+line-height:2.2;
+text-shadow: 1px 2px rgb(0, 0, 0);
+margin-top:50px;	
+margin-left: 16px;
+}
+.learn:hover {
+background: url('../../images/hover-1.png') 0 -53px no-repeat;
+}
+.tool_tip {
+background: url('../../images/tooltipcopy-4.png')0 0 no-repeat;
+width: 194px;
+position: relative;
+height: 79px;
+bottom: -71px;
+text-align:center;
+color:white;
+line-height:4;
+text-shadow: 1px 2px rgb(0, 0, 0);
+font-size:18px;
+}
+.tool_tip:hover{
+background: url('../../images/tooltipcopy-4.png')0 -74px no-repeat;
+}
