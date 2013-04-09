@@ -22,3 +22,48 @@ display:inline;
 float:left;
 margin-right:40px;
 }
+.social {
+float: right;
+margin-top: -81px;
+margin-right: 160px;
+}
+.social li {
+display:inline;
+float:left;
+width: 18px;
+height:19px;
+}
+.social li.fb {
+background: url('../../images/social.png') 0 0 no-repeat;
+}
+.social li.fb:hover {
+background: url('../../images/social.png') 0 -19px no-repeat;
+}
+.social li.twitter {
+background: url('../../images/social.png') -19px 0 no-repeat;
+margin-right: 12px;
+}
+.social li.twitter:hover {
+background: url('../../images/social.png') -19px -19px no-repeat;
+}
+.social li.linkedin {
+background: url('../../images/social.png') -53px 0 no-repeat;
+width: 22px;
+margin-right: 10px;
+}
+.social li.linkedin:hover {
+background: url('../../images/social.png') -53px -19px no-repeat;
+}
+.social li.pinterest {
+background: url('../../images/social.png') -87px 0 no-repeat;
+margin-right: 10px;
+}
+.social li.pinterest:hover {
+background: url('../../images/social.png') -87px -19px no-repeat;
+}
+.social li.youtube {
+background: url('../../images/social.png') -111px 0 no-repeat;
+}
+.social li.youtube:hover {
+background: url('../../images/social.png') -111px -19px no-repeat;
+}
