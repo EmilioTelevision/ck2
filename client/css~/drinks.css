@@ -1,0 +1,122 @@
+#drinks {
+margin:0 auto;
+width:1280px;
+}
+.menu {
+background: url('../../images/recipe_bg.png') no-repeat;	
+height:341px;
+width:203px;
+float:left;
+}
+.menu .menu_title {
+background: url('../../images/recipe_title.png') no-repeat;	
+height:87px;
+width:205px;
+margin-top: -45px;
+text-shadow: 2px 2px #334433;
+text-align: center;
+color:white;
+line-height:6;	
+}
+.menu ul.drink_menu {
+margin-top: -15px;
+}
+.menu li {	
+height:32px;
+font-weight:bold;
+margin-left: 27px;
+text-indent: 7px;
+line-height: 2;
+}
+.menu li.gray {
+background: url('../../images/menu_button.png') no-repeat;	
+height:32px;
+width:148px;
+}
+.menu .ingredients {
+background: url('../../images/recipe_menu.png') no-repeat;	
+height:184px;
+width:148px;
+margin-left: 27px;
+margin-top: 7px;
+font-size:14px;
+padding-left: 3px;
+}
+.menu .ingredients p {
+margin-top: 7px;
+}
+
+.hot_t {
+background: url('../../images/drink_bg.png') no-repeat;	
+height:361px;
+width:335px;
+margin-left:-20px;
+float:left;	
+}
+.hot_t .drink_one {
+background: url('../../images/longisland.png') no-repeat;	
+height:441px;
+width:264px;
+margin-left:30px;
+margin-top:-108px;	
+}
+.fruity_tooty {
+background: url('../../images/drink_bg.png') no-repeat;	
+height:361px;
+width:335px;
+float:left;	
+}
+.fruity_tooty .drink_two {
+background: url('../../images/blue_drink.png') no-repeat;	
+height:401px;
+width:293px;
+margin-left:0px;
+margin-top:-108px;	
+}
+.tea_paine {
+background: url('../../images/drink_bg.png') no-repeat;	
+height:361px;
+width:335px;
+float:left;	
+}
+.tea_paine .drink_three {
+background: url('../../images/green_drink.png') no-repeat;	
+height:425px;
+width:320px;
+margin-left:0px;
+margin-top:-108px;	
+}
+.hot_t, .fruity_tooty,.tea_paine {
+margin-right:-20px;	
+}
+.hot_t:hover, .fruity_tooty:hover,.tea_paine:hover{
+background: url('../../images/drink_bg_hover.png') no-repeat;	
+}
+.recipes {
+background: url('../../images/menu_bg.png') no-repeat;	
+height:341px;
+width:203px;
+float: right;	
+margin-right: -38px;
+margin-top: -240px;
+font-size:14px;
+padding-left: 3px;
+}
+.recipes ul.drink_recipe {
+margin-left: 24px;
+margin-top: 25px;
+}
+.recipes ul.drink_recipe li img {
+margin-right:5px;
+}
+.recipe_title {
+background: url('../../images/right_title.png') no-repeat;	
+height:81px;
+width:177px;
+margin-top: -13px;
+margin-left: -7px;	
+text-shadow: 2px 2px #334433;
+text-align: center;
+color:white;
+line-height:6;
+}
