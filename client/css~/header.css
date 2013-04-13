@@ -1,6 +1,9 @@
 #header_wrap {
 background: url('../../images/left_glow-4.png') center top no-repeat;
 height: 238px;
+position: fixed;
+width: 100%;
+z-index: 5;
 }
 .header_inner {
 width:960px;

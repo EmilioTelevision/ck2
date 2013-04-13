@@ -1,0 +1,48 @@
+#map_wrap {
+padding-left: 12px;
+width:960px;
+margin:0 auto;
+position: relative;
+padding-top: 125px;
+}
+.map {
+background: url('../../images/tapmask2.png') no-repeat;
+width:368px;
+height:500px;	
+float:right;
+}
+.map_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+
+}
+.map_right {
+float: right;
+position: relative;
+top: -60px;
+z-index: 4;
+}
+.map_left h2 {
+background: url('../../images/name_plate.png') no-repeat;
+width:363px;
+height:116px;
+font-size:28px;
+text-align:center;
+line-height:4;	
+transform:rotate(-7deg);
+-ms-transform:rotate(-7deg); /* IE 9 */
+-webkit-transform:rotate(-7deg); /* Safari and Chrome */
+}
+.map_left .iframe iframe {
+
+transform:rotate(-5deg);
+-ms-transform:rotate(-5deg); /* IE 9 */
+-webkit-transform:rotate(-5deg); /* Safari and Chrome */
+-webkit-box-shadow: -6px 6px 7px rgba(50,50,50,.51);
+-moz-box-shadow: -6px 6px 7px rgba(50,50,50,.51);
+box-shadow: -6px 6px 7px rgba(50,50,50,.51);
+
+
+}

@@ -1,6 +1,7 @@
 #drinks {
 margin:0 auto;
-width:1280px;
+width:1296px;
+padding-top: 250px;
 }
 .menu {
 background: url('../../images/recipe_bg.png') no-repeat;	
@@ -19,7 +20,7 @@ color:white;
 line-height:6;	
 }
 .menu ul.drink_menu {
-margin-top: -15px;
+margin-top: -7px;
 }
 .menu li {	
 height:32px;
@@ -34,8 +35,8 @@ height:32px;
 width:148px;
 }
 .menu .ingredients {
-background: url('../../images/recipe_menu.png') no-repeat;	
-height:184px;
+background: url('../../images/menu_button-1.png') no-repeat;	
+height:102px;
 width:148px;
 margin-left: 27px;
 margin-top: 7px;
@@ -47,7 +48,7 @@ margin-top: 7px;
 }
 
 .hot_t {
-background: url('../../images/drink_bg.png') no-repeat;	
+background: url('../../images/drink_bg-7.png') no-repeat;	
 height:361px;
 width:335px;
 margin-left:-20px;
@@ -60,8 +61,64 @@ width:264px;
 margin-left:30px;
 margin-top:-108px;	
 }
+ .name {
+background: url('../../images/drink_names.png') no-repeat;	
+height:99px;
+width:223px;
+text-shadow: 2px 2px #334433;
+text-align: center;
+font-size:24px;
+font-weight:bold;
+color:white;
+line-height:4.5;
+}
+.hot_t .name {
+margin-top: -40px;
+}
+.fruity_tooty .name {
+margin-top:0px;
+}
+.tea_paine .name {
+margin-top:-30px;
+}
+.mixers {
+position: relative;
+top: 170px;
+}
+.mixers li.image_one {
+background: url('../../images/triple.png') 0 4px no-repeat;	
+height:61px;
+width:32px;
+}
+.mixers li.image_one:hover {
+background: url('../../images/triple.png') 0 -62px no-repeat;
+}
+.mixers li.image_two {
+background: url('../../images/lime_sprite.png') 0 3px no-repeat;	
+height:56px;
+width:23px;
+}
+.mixers li.image_two:hover {
+background: url('../../images/lime_sprite.png') 0 -58px no-repeat;	
+}
+.mixers li.image_three {
+background: url('../../images/rum_sprite.png') 0 5px no-repeat;	
+height:62px;
+width:23px;
+}
+.mixers li.image_three:hover {
+background: url('../../images/rum_sprite.png') 0 -57px no-repeat;	
+}
+.mixers li.image_four {
+background: url('../../images/kiwizzle.png') 0 7px no-repeat;	
+height:54px;
+width:63px;
+}
+.mixers li.image_four:hover {
+background: url('../../images/kiwizzle.png')0 -47px no-repeat;	
+}
 .fruity_tooty {
-background: url('../../images/drink_bg.png') no-repeat;	
+background: url('../../images/drink_bg-7.png') no-repeat;	
 height:361px;
 width:335px;
 float:left;	
@@ -73,34 +130,52 @@ width:293px;
 margin-left:0px;
 margin-top:-108px;	
 }
+.fruity_tooty .name {
+margin-top:0px;
+}
+.fruity_tooty .drink_two .mixers {
+margin-left:30px;
+}
 .tea_paine {
-background: url('../../images/drink_bg.png') no-repeat;	
+background: url('../../images/drink_bg-7.png') no-repeat;	
 height:361px;
 width:335px;
 float:left;	
 }
 .tea_paine .drink_three {
-background: url('../../images/green_drink.png') no-repeat;	
-height:425px;
-width:320px;
-margin-left:0px;
-margin-top:-108px;	
+background: url('../../images/red_drink.png') no-repeat;	
+height:445px;
+width:289px;
+margin-left:20px;
+margin-top:-122px;	
+}
+.tea_paine .drink_three .mixers {
+margin-left:10px;
 }
 .hot_t, .fruity_tooty,.tea_paine {
 margin-right:-20px;	
 }
 .hot_t:hover, .fruity_tooty:hover,.tea_paine:hover{
-background: url('../../images/drink_bg_hover.png') no-repeat;	
+background: url('../../images/drink_bg-5.png') no-repeat;	
 }
 .recipes {
 background: url('../../images/menu_bg.png') no-repeat;	
 height:341px;
 width:203px;
-float: right;	
+float: left;	
 margin-right: -38px;
-margin-top: -240px;
+margin-top: 40px;
 font-size:14px;
 padding-left: 3px;
+}
+.recipes .description {
+background: url('../../images/menu_bgcopy.png') no-repeat;	
+height:226px;
+width:127px;
+margin-top: 25px;
+margin-left: 23px;
+padding:4px;
+font-size:13px;
 }
 .recipes ul.drink_recipe {
 margin-left: 24px;
@@ -113,7 +188,7 @@ margin-right:5px;
 background: url('../../images/right_title.png') no-repeat;	
 height:81px;
 width:177px;
-margin-top: -13px;
+margin-top: -46px;
 margin-left: -7px;	
 text-shadow: 2px 2px #334433;
 text-align: center;

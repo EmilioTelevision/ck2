@@ -1,0 +1,41 @@
+#tyler_wrap {
+padding-left: 12px;
+width:960px;
+margin:0 auto;
+position: relative;
+padding-top: 125px;
+}
+.kombucha_left {
+background: url('../../images/blue_tap.png') no-repeat;
+width:368px;
+height:500px;	
+float:left;
+}
+.tyler_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+}
+.tyler_right {
+float: right;
+position: relative;
+top: 160px;
+z-index: 4;
+width:500px;
+}
+.tyler_right h2 {
+background: url('../../images/name_plate.png') no-repeat;
+width:363px;
+height:116px;
+font-size:30px;
+text-align:center;
+line-height:4;	
+}
+.tyler_right img.beerman {
+border:6px solid #0069aa;
+margin-left:90px;
+transform:rotate(5deg);
+-ms-transform:rotate(5deg); /* IE 9 */
+-webkit-transform:rotate(5deg); /* Safari and Chrome */
+}

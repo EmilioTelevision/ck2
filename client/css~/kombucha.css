@@ -3,15 +3,26 @@ padding-left: 12px;
 width:960px;
 margin:0 auto;
 position: relative;
+padding-top: 125px;
 }
 .kombucha {
-background: url('../../images/tap-1.png') no-repeat;
+background: url('../../images/tapmask2.png') no-repeat;
 width:368px;
 height:500px;	
-position: absolute;
-right: 104px;
-top: -186px;
-z-index: -2;
+float:right;
+}
+.content_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+}
+.content_right {
+float: right;
+position: relative;
+right: 80px;
+top: -60px;
+z-index: 4;
 }
 .learn {
 background: url('../../images/lrnmre.png') 0 0 no-repeat;
@@ -42,4 +53,21 @@ font-size:18px;
 }
 .tool_tip:hover{
 background: url('../../images/tool.png')0 -93px no-repeat;
+}
+#radial_light {
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…VpZ2h0PSIxMDEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: -webkit-gradient(radial,center center,0,center center,100%,color-stop(0%,rgba(255,255,255,1)),color-stop(1%,rgba(255,255,255,.98)),color-stop(43%,rgba(255,255,255,0)),color-stop(99%,rgba(255,255,255,0)));
+background: -webkit-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: -o-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: -ms-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: radial-gradient(ellipse at center,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1 );
+width: 1000px;
+height: 1000px;
+opacity: .1;
+position: absolute;
+right: -50px;
+top: -20px;
+z-index: 2;
 }

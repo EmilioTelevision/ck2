@@ -1,9 +1,10 @@
 #footer_wrap {
-position:absolute;
-bottom:0px;
-height:80px;
-width:100%;
-background:#1d2025;
+position: fixed;
+bottom: 0;
+width: 100%;
+background: url('../../images/foot2.png') center top no-repeat;
+height: 148px;
+z-index: 5;
 }
 #footer {
 width:960px;
@@ -12,12 +13,12 @@ margin:0 auto;
 .flavors, .products, .locations, .purchase {
 width:220px;
 height:80px;
-border-left:1px solid rgba(74, 75, 75, 0.5);
 text-indent:15px;
 float: left;
 line-height:4;
 font-size:22px;
 font-weight:normal;
+margin-top:50px;
 }
 .search {
 width: 74px;
@@ -38,4 +39,12 @@ margin-left:70px;
 }
 #footer a {
 border-bottom:none;	
+}
+.footer_logo {
+float:right;
+width:360px;
+height:69px;
+background: url('../../images/logo-3.png') center top no-repeat;
+cursor:pointer;
+margin-top:-60px;
 }
