@@ -21,7 +21,7 @@ width:368px;
 height:500px;
 float: right;
 position: relative;
-top: 100px;
+top: 200px;
 z-index: 4;
 
 }
@@ -32,6 +32,10 @@ height:116px;
 font-size:28px;
 text-align:center;
 line-height:4.5;	
+margin-bottom:10px;
+}
+.map_left p.space {
+margin-top:10px;
 }
 .map_left .iframe iframe {
 -webkit-box-shadow: -6px 6px 7px rgba(50,50,50,.51);

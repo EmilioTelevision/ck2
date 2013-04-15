@@ -38,13 +38,10 @@ overflow-x: hidden;
 h1 {
 font-size: 45px;
 color: #fff;
-text-indent: 16px;
 text-shadow: 4px 3px 12px black;
-text-indent:16px;
 }
 h2 {
 font-weight:bold;
-text-indent:16px;
 font-size: 50px;
 color: #fff;
 text-shadow: 2px 2px 5px black;	

@@ -39,7 +39,7 @@ font-weight:bold;
 font-family: "PT Sans", sans-serif;
 width: 686px;
 text-align: center;
-line-height:1.15;
+line-height:1.4;
 margin-top: 12px;
 margin-bottom:26px;
 margin-left:119px;
@@ -49,10 +49,9 @@ float:left;
 
 }
 #address .big_map {
-width:255px;
-height:270px;
-background: url('../../images/cali-2.png') 0 0 no-repeat;
-margin-bottom: 30px;
+width:272px;
+height:311px;
+background: url('../../images/cali-3.png') 0 0 no-repeat;
 }
 #address .directions h1 {
 font-size: 20px;
