@@ -1,6 +1,6 @@
 #drinks {
 margin:0 auto;
-width:1296px;
+width:1121px;
 padding-top: 250px;
 }
 .menu {
@@ -8,6 +8,7 @@ background: url('../../images/recipe_bg.png') no-repeat;
 height:341px;
 width:203px;
 float:left;
+margin-right:10px;
 }
 .menu .menu_title {
 background: url('../../images/recipe_title.png') no-repeat;	
@@ -48,87 +49,38 @@ margin-top: 7px;
 }
 
 .hot_t {
-background: url('../../images/drink_bg-7.png') no-repeat;	
+background: url('../../images/drink_bg-8.png') no-repeat;	
 height:361px;
 width:335px;
-margin-left:-20px;
+margin-left:-30px;
 float:left;	
+margin-right:-20px;	
 }
 .hot_t .drink_one {
-background: url('../../images/longisland.png') no-repeat;	
-height:441px;
-width:264px;
-margin-left:30px;
+background: url('../../images/collage3.png') 0 0 no-repeat;	
+height:434px;
+width:304px;
 margin-top:-108px;	
 }
- .name {
-background: url('../../images/drink_names.png') no-repeat;	
-height:99px;
-width:223px;
-text-shadow: 2px 2px #334433;
-text-align: center;
-font-size:24px;
-font-weight:bold;
-color:white;
-line-height:4.5;
-}
-.hot_t .name {
-margin-top: -40px;
-}
-.fruity_tooty .name {
-margin-top:0px;
-}
-.tea_paine .name {
-margin-top:-30px;
-}
-.mixers {
-position: relative;
-top: 170px;
-}
-.mixers li.image_one {
-background: url('../../images/triple.png') 0 4px no-repeat;	
-height:61px;
-width:32px;
-}
-.mixers li.image_one:hover {
-background: url('../../images/triple.png') 0 -62px no-repeat;
-}
-.mixers li.image_two {
-background: url('../../images/lime_sprite.png') 0 3px no-repeat;	
-height:56px;
-width:23px;
-}
-.mixers li.image_two:hover {
-background: url('../../images/lime_sprite.png') 0 -58px no-repeat;	
-}
-.mixers li.image_three {
-background: url('../../images/rum_sprite.png') 0 5px no-repeat;	
-height:62px;
-width:23px;
-}
-.mixers li.image_three:hover {
-background: url('../../images/rum_sprite.png') 0 -57px no-repeat;	
-}
-.mixers li.image_four {
-background: url('../../images/kiwizzle.png') 0 7px no-repeat;	
-height:54px;
-width:63px;
-}
-.mixers li.image_four:hover {
-background: url('../../images/kiwizzle.png')0 -47px no-repeat;	
+.hot_t .drink_one:hover {
+background: url('../../images/collage3.png') 0 -434px no-repeat;	
 }
 .fruity_tooty {
-background: url('../../images/drink_bg-7.png') no-repeat;	
+background: url('../../images/drink_bg-8.png') no-repeat;	
 height:361px;
 width:335px;
 float:left;	
+margin-right:-30px;	
 }
 .fruity_tooty .drink_two {
-background: url('../../images/blue_drink.png') no-repeat;	
-height:401px;
-width:293px;
-margin-left:0px;
+background: url('../../images/collage_two.png') 0 0 no-repeat;	
+height:435px;
+width:304px;
+margin-left:13px;
 margin-top:-108px;	
+}
+.fruity_tooty .drink_two:hover {
+background: url('../../images/collage_two.png') 0 -435px no-repeat;	
 }
 .fruity_tooty .name {
 margin-top:0px;
@@ -137,33 +89,54 @@ margin-top:0px;
 margin-left:30px;
 }
 .tea_paine {
-background: url('../../images/drink_bg-7.png') no-repeat;	
+background: url('../../images/drink_bg-8.png') no-repeat;	
 height:361px;
 width:335px;
+margin-left:10px;
+margin-right:-29px;	
 float:left;	
 }
 .tea_paine .drink_three {
-background: url('../../images/red_drink.png') no-repeat;	
-height:445px;
-width:289px;
-margin-left:20px;
+background: url('../../images/collage_three.png') 0 0 no-repeat;	
+height:433px;
+width:304px;
 margin-top:-122px;	
+}
+.tea_paine .drink_three:hover {
+background: url('../../images/collage_three.png') 0 -433px no-repeat;	
 }
 .tea_paine .drink_three .mixers {
 margin-left:10px;
 }
-.hot_t, .fruity_tooty,.tea_paine {
-margin-right:-20px;	
+
+.name {
+background: url('../../images/nameplate-1.png') no-repeat;	
+height:129px;
+width:241px;
+margin-left:20px;
+text-shadow: 2px 2px #334433;
+text-align: center;
+font-size:24px;
+font-weight:bold;
+color:white;
+line-height:5.2;
 }
-.hot_t:hover, .fruity_tooty:hover,.tea_paine:hover{
-background: url('../../images/drink_bg-5.png') no-repeat;	
+.hot_t .name {
+margin-top: -28px;
 }
+.fruity_tooty .name {
+margin-top:-30px;
+}
+.tea_paine .name {
+margin-top:-15px;
+}
+
 .recipes {
 background: url('../../images/menu_bg.png') no-repeat;	
 height:341px;
 width:203px;
 float: left;	
-margin-right: -38px;
+margin-right: -56px;
 margin-top: 40px;
 font-size:14px;
 padding-left: 3px;
