@@ -1,4 +1,4 @@
-#left_two_wrap {
+#left_three_wrap {
 padding-left: 12px;
 width:960px;
 margin:0 auto;
@@ -6,20 +6,20 @@ position: relative;
 padding-top: 125px;
 }
 
-.text_left_two {
+.text_left_three {
 background:#f7f7f7;
 float: left;
 margin-top: 100px;
 padding:10px;
 z-index: 3;
-width:450px;
+width:400px;
 height:400px;
 position: relative;
 -webkit-box-shadow: -2px 2px 6px rgba(50, 50, 50, 0.61);
 -moz-box-shadow:    -2px 2px 6px rgba(50, 50, 50, 0.61);
 box-shadow:         -2px 2px 6px rgba(50, 50, 50, 0.61);
 }
-.text_left_two h2 {
+.text_left_three h2 {
 background: url('../../images/big_name.png') no-repeat;
 margin-left: 36px;
 margin-top: -50px;
@@ -29,7 +29,7 @@ font-size:30px;
 text-align:center;
 line-height:4.2;	
 }
-.text_left_two p.gray, .right_three_right p.gray {
+.text_left_two p.gray, .right_three_right p.gray, .text_left_three p.gray {
 background:#d7d7d7;
 -moz-box-shadow:    inset 0 0 15px rgba(0, 0, 0, 0.15);
    -webkit-box-shadow: inset 0 0 15px rgba(0, 0, 0, 0.15);
@@ -37,22 +37,21 @@ background:#d7d7d7;
 padding:10px;
 margin-bottom:20px;
 }
-.text_left_two img.beerman {
+.text_left_three img.beerman {
 border:6px solid #0069aa;
 margin-left:90px;
 
 }
-.countryside {
+.bar_mini {
 float: right;
 position: relative;
 top: 160px;
 z-index: 4;
 width:450px;
 }
-.country_image {
-background: url('../../images/countryside.png') no-repeat;
-width: 400px;
+.mini_bar {
+background: url('../../images/bar_mini-1.png') no-repeat;
+width: 470px;
 height: 512px;	
 float:right;
-margin-top: -80px;
 }

@@ -1,0 +1,46 @@
+#right_three_wrap {
+padding-left: 12px;
+width:960px;
+margin:0 auto;
+position: relative;
+
+}
+.three_left {
+background: url('../../images/ca_bar.png') no-repeat;
+width:480px;
+height:479px;	
+float:left;
+}
+.right_three_left {
+float: left;
+top: 140px;
+z-index: 3;
+position: relative;
+}
+.right_three_right {
+float: right;
+position: relative;
+top:180px;
+z-index: 4;
+width: 381px;
+background: #f7f7f7;
+-webkit-box-shadow: -2px 2px 6px rgba(50, 50, 50, 0.61);
+-moz-box-shadow:    -2px 2px 6px rgba(50, 50, 50, 0.61);
+box-shadow:         -2px 2px 6px rgba(50, 50, 50, 0.61);
+padding: 10px;
+}
+.right_three_right h2 {
+background: url('../../images/big_name.png') no-repeat;
+width:372px;
+height:116px;
+font-size:30px;
+text-align:center;
+line-height:4.2;	
+}
+.right_three_right img.beerman {
+border:6px solid #0069aa;
+margin-left:90px;
+z-index: -1;
+position:absolute;
+top: -53px;
+}

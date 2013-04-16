@@ -1,31 +1,35 @@
 #ribbon {
-position:absolute;
+position: fixed;
 width: 199px;
-height:487px;
-background:  url('../../images/ribbon.png') no-repeat;
+height: 487px;
+background: url(../../images/ribbon.png) no-repeat;
 left: 50%;
 margin-left: 277px;
+z-index: 10;
 }
-.annoucements {
+.announcements {
 width: 142px;
-height:25px;
-background:  url('../../images/announce.png') 0 0 no-repeat;	
-margin-left: 33px;
-color:white;
-font-size:12px;
-text-align:center;
-text-indent:-10px;
-line-height:1.7;
-text-shadow: 1px 2px rgb(113, 110, 110);
-cursor:pointer;
+height: 25px;
+background: url(../../images/announce.png) 0 0 no-repeat;
+color: #fff;
+font-size: 12px;
+text-align: center;
+text-indent: -10px;
+line-height: 1.7;
+text-shadow: 1px 2px #716e6e;
+cursor: pointer;
+position: fixed;
+z-index: 11;
+margin-left: 50%;
+left: 308px;
 }
-.annoucements:hover {
+.announcements:hover {
 background:  url('../../images/announce.png') 0 -25px no-repeat;	
 }
 .tap {
 width: 113px;
 height:383px;
-background:  url('../../images/tap-2.png') no-repeat;
+background:  url('../../images/tap-3.png') no-repeat;
 margin-left:40px;
 margin-top:10px;	
 }
