@@ -57,13 +57,13 @@ float:left;
 margin-right:-20px;	
 }
 .hot_t .drink_one {
-background: url('../../images/collage3.png') 0 0 no-repeat;	
-height:434px;
+background: url('../../images/collage_onecopy.png') 0 0 no-repeat;	
+height:422px;
 width:304px;
 margin-top:-108px;	
 }
 .hot_t .drink_one:hover {
-background: url('../../images/collage3.png') 0 -434px no-repeat;	
+background: url('../../images/collage_onecopy.png') 0 -422px no-repeat;	
 }
 .fruity_tooty {
 background: url('../../images/drink_bg-8.png') no-repeat;	
@@ -73,14 +73,14 @@ float:left;
 margin-right:-30px;	
 }
 .fruity_tooty .drink_two {
-background: url('../../images/collage_two.png') 0 0 no-repeat;	
-height:435px;
+background: url('../../images/collage_two-2.png') 0 0 no-repeat;	
+height:437px;
 width:304px;
 margin-left:13px;
-margin-top:-108px;	
+margin-top:-95px;	
 }
 .fruity_tooty .drink_two:hover {
-background: url('../../images/collage_two.png') 0 -435px no-repeat;	
+background: url('../../images/collage_two-2.png') 0 -437px no-repeat;	
 }
 .fruity_tooty .name {
 margin-top:0px;
@@ -100,7 +100,7 @@ float:left;
 background: url('../../images/collage_three.png') 0 0 no-repeat;	
 height:433px;
 width:304px;
-margin-top:-122px;	
+margin-top:-108px;	
 }
 .tea_paine .drink_three:hover {
 background: url('../../images/collage_three.png') 0 -433px no-repeat;	
@@ -125,10 +125,10 @@ line-height:5.2;
 margin-top: -28px;
 }
 .fruity_tooty .name {
-margin-top:-30px;
+margin-top:-52px;
 }
 .tea_paine .name {
-margin-top:-15px;
+margin-top:-34px;
 }
 
 .recipes {
