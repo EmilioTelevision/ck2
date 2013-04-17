@@ -1,0 +1,21 @@
+#keg_face_wrap {
+top: 125px;
+}
+.keg_face {
+background: url('../../images/keg_face-2.png') no-repeat;
+width:441px;
+height:507px;	
+float:right;
+}
+.keg_face_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+}
+.keg_face_right {
+float: right;
+position: relative;
+top: 23px;
+z-index: 4;
+}

@@ -1,0 +1,24 @@
+#tea_wrap {
+top:200px;
+}
+.tea_image {
+background: url('../../images/blue_tap.png') no-repeat;
+width:480px;
+height:500px;	
+float:left;
+}
+.tea_left {
+float: left;
+top: 60px;
+z-index: 3;
+position: relative;
+}
+
+#tea_right {
+float: right;
+position: relative;
+top:180px;
+z-index: 4;
+width: 381px;
+padding: 10px;
+}

@@ -1,0 +1,33 @@
+#impact_wrap {
+top:200px;
+}
+.impact_image {
+background: url('../../images/ty-1.png') no-repeat;
+width:480px;
+height:479px;	
+float:left;
+margin-top: 89px;
+}
+.impact_left {
+float: left;
+top: 60px;
+z-index: 3;
+position: relative;
+}
+#impact_right h2.blue_title {
+margin-left: 12px;
+margin-top: -50px;
+}
+#impact_right {
+float: right;
+position: relative;
+top:180px;
+z-index: 4;
+width: 381px;
+padding: 10px;
+}
+#impact_right img.beerman {
+z-index: -1;
+position:absolute;
+top: -53px;
+}

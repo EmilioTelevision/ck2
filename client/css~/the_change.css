@@ -1,0 +1,13 @@
+#change_wrap {
+top: 225px;
+}
+#left h2.blue_title {
+margin-left: 12px;
+margin-top: -65px;	
+}
+.health {
+background: url('../../images/health.png') no-repeat;
+width: 470px;
+height: 512px;	
+float:right;
+}

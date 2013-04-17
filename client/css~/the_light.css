@@ -1,0 +1,23 @@
+#light_wrap {
+top:200px;
+}
+.light_image {
+background: url('../../images/car.png') no-repeat;
+width:480px;
+height:479px;	
+float:left;
+}
+.light_left {
+float: left;
+top: 60px;
+z-index: 3;
+position: relative;
+}
+#light_right {
+float: right;
+position: relative;
+top:180px;
+z-index: 4;
+width: 381px;
+padding: 10px;
+}

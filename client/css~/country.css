@@ -1,0 +1,18 @@
+#country_wrap {
+top: 125px;
+}
+
+.countryside {
+float: right;
+position: relative;
+top: 160px;
+z-index: 4;
+width:450px;
+}
+.country_image {
+background: url('../../images/countryside.png') no-repeat;
+width: 400px;
+height: 512px;	
+float:right;
+margin-top: -80px;
+}

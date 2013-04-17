@@ -1,0 +1,23 @@
+#two_kegs_wrap {
+top:200px;
+}
+.kegs_left {
+background: url('../../images/right_display.png') no-repeat;
+width:480px;
+height:479px;	
+float:left;
+}
+.two_kegs_left {
+float: left;
+top: 60px;
+z-index: 3;
+position: relative;
+}
+#two_kegs_right {
+float: right;
+position: relative;
+top:180px;
+z-index: 4;
+width: 381px;
+padding: 10px;
+}

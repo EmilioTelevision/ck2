@@ -1,0 +1,9 @@
+#keg_drink_wrap {
+top: 200px;
+}
+.keg_drink_image {
+background: url('../../images/minikeg-3.png') no-repeat;
+width:316px;
+height:394px;	
+float:right;
+}

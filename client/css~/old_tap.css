@@ -1,0 +1,15 @@
+#old_tap_wrap {
+
+}
+.old_tap_image {
+background: url('../../images/old_tap.png') no-repeat;
+width:480px;
+height:479px;	
+float:left;
+}
+.old_tap_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+}

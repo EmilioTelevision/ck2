@@ -1,0 +1,10 @@
+#left_five_wrap {
+top: 225px;
+}
+.rapper {
+background: url('../../images/luckyiam.png') no-repeat;
+width: 397px;
+height: 512px;	
+float:right;
+margin-top: -32px;
+}

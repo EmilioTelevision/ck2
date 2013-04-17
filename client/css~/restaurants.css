@@ -1,0 +1,16 @@
+#restaurants_wrap {
+top: 200px;
+}
+.bar_mini {
+float: right;
+position: relative;
+top: 160px;
+z-index: 4;
+width:450px;
+}
+.mini_bar {
+background: url('../../images/bar_mini-1.png') no-repeat;
+width: 470px;
+height: 512px;	
+float:right;
+}

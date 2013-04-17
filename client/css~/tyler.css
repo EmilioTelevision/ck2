@@ -1,9 +1,5 @@
 #tyler_wrap {
-padding-left: 12px;
-width:960px;
-margin:0 auto;
-position: relative;
-padding-top: 125px;
+top: 200px;
 }
 .kombucha_left {
 background: url('../../images/komdrink.png') no-repeat;

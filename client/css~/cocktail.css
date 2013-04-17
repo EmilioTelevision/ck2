@@ -1,0 +1,16 @@
+#right_wrap {
+
+}
+.image_cocktail {
+background: url('../../images/komcktail.png') no-repeat;
+width:353px;
+height:430px;	
+float:left;
+}
+.cocktail_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+}
+

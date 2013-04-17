@@ -1,0 +1,23 @@
+#co2_wrap {
+top:200px;
+}
+.co2_image {
+background: url('../../images/co2.png') no-repeat;
+width:480px;
+height:479px;	
+float:left;
+}
+.co2_left {
+float: left;
+top: 60px;
+z-index: 3;
+position: relative;
+}
+#co2_right {
+float: right;
+position: relative;
+top:180px;
+z-index: 4;
+width: 381px;
+padding: 10px;
+}

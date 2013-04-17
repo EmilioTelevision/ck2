@@ -1,0 +1,30 @@
+#blue_tap_wrap {
+top: 111px;
+margin-bottom: 100px;
+}
+
+.blue_tap_left {
+float: left;
+padding-top: 100px;
+width:460px;
+z-index: 3;
+position: relative;
+top: 200px;
+}
+.blue_tap_right {
+background: url('../../images/blue_tap.png') no-repeat;
+width:368px;
+height:500px;
+float: right;
+position: relative;
+top: 200px;
+z-index: 4;
+
+}
+.blue_tap h2 {
+line-height:4.5;	
+margin-bottom:10px;
+}
+.blue_tap_left p.space {
+margin-top:10px;
+}
