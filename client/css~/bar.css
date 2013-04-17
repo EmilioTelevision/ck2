@@ -1,0 +1,74 @@
+#bar_wrap {
+background: url('../../images/big_bar-1.png') no-repeat;
+padding-left: 12px;
+width:960px;
+margin:0 auto;
+position: relative;
+padding-top: 109px;
+top: 200px;
+}
+.bar_pic {
+
+width:441px;
+height:507px;	
+float:right;
+}
+.bar_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+}
+.bar_right {
+float: right;
+position: relative;
+top: 23px;
+z-index: 4;
+}
+.learn {
+background: url('../../images/lrnmre.png') 0 0 no-repeat;
+width:175px;
+height: 58px;
+font-size:22px;
+color:white;
+text-align:center;
+line-height:2.2;
+text-shadow: 1px 2px rgb(0, 0, 0);
+margin-top: 43px;	
+
+}
+.learn:hover {
+background: url('../../images/lrnmre.png') 0 -59px no-repeat;
+}
+.tool_tip {
+background: url('../../images/tool.png')0 0 no-repeat;
+width: 194px;
+position: relative;
+height: 93px;
+bottom: -134px;
+text-align:center;
+color:white;
+line-height: 4.3;
+text-shadow: 1px 2px rgb(0, 0, 0);
+font-size:18px;
+}
+.tool_tip:hover{
+background: url('../../images/tool.png')0 -93px no-repeat;
+}
+#radial_light {
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJod…VpZ2h0PSIxMDEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+background: -moz-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: -webkit-gradient(radial,center center,0,center center,100%,color-stop(0%,rgba(255,255,255,1)),color-stop(1%,rgba(255,255,255,.98)),color-stop(43%,rgba(255,255,255,0)),color-stop(99%,rgba(255,255,255,0)));
+background: -webkit-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: -o-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: -ms-radial-gradient(center,ellipse cover,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+background: radial-gradient(ellipse at center,rgba(255,255,255,1) 0,rgba(255,255,255,.98) 1%,rgba(255,255,255,0) 43%,rgba(255,255,255,0) 99%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff', GradientType=1 );
+width: 1000px;
+height: 1000px;
+opacity: .1;
+position: absolute;
+right: -50px;
+top: -20px;
+z-index: 2;
+}

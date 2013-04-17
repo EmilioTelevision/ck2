@@ -97,13 +97,14 @@ margin-right:-29px;
 float:left;	
 }
 .tea_paine .drink_three {
-background: url('../../images/collage_three.png') 0 0 no-repeat;	
-height:433px;
+background: url('../../images/collage_three-1.png') 0 0 no-repeat;	
+height:435px;
 width:304px;
-margin-top:-108px;	
+margin-top:-87px;
+margin-left: 16px;	
 }
 .tea_paine .drink_three:hover {
-background: url('../../images/collage_three.png') 0 -433px no-repeat;	
+background: url('../../images/collage_three-1.png') 0 -435px no-repeat;	
 }
 .tea_paine .drink_three .mixers {
 margin-left:10px;
@@ -128,7 +129,7 @@ margin-top: -28px;
 margin-top:-52px;
 }
 .tea_paine .name {
-margin-top:-34px;
+margin-top:-55px;
 }
 
 .recipes {
