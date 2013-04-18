@@ -1,0 +1,13 @@
+#future_wrap {
+top: 225px;
+}
+#left h2.blue_title {
+margin-left: 12px;
+margin-top: -65px;	
+}
+.future {
+background: url('../../images/komcktail.png') no-repeat;
+width: 378px;
+height: 512px;	
+float:right;
+}

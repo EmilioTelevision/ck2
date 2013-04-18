@@ -102,7 +102,15 @@ font-size:30px;
 text-align:center;
 line-height:4.2;	
 }
-h2.blue_title_low {
+h2.blue_right {
+background: url('../../images/name_right.png') no-repeat;
+width:372px;
+height:116px;
+font-size:30px;
+text-align:center;
+line-height:4.2;	
+}
+h2.blue_title_low  {
 margin-left: 12px;
 margin-top: -50px;	
 }
@@ -122,6 +130,12 @@ width:400px;
 height:400px;
 position: relative;
 }
+#left_two {
+float: left;
+top: 60px;
+z-index: 3;
+position: relative;
+}
 #right {
 float: right;
 position: relative;
@@ -129,5 +143,12 @@ top: 160px;
 z-index: 4;
 width:450px;
 }
-
+#right_two {
+float: right;
+position: relative;
+top:180px;
+z-index: 4;
+width: 381px;
+padding: 10px;
+}
 

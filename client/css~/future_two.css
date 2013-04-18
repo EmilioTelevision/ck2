@@ -1,0 +1,12 @@
+#future_two_wrap {
+top:200px;
+}
+.future_two_image {
+background: url('../../images/co2.png') no-repeat;
+width:480px;
+height:500px;	
+float:left;
+margin-top: 50px;
+
+}
+

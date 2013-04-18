@@ -1,0 +1,12 @@
+#more_brew_wrap {
+top:200px;
+}
+.more_brew_image {
+background: url('../../images/right_display.png') no-repeat;
+width:480px;
+height:500px;	
+float:left;
+margin-top: 50px;
+
+}
+

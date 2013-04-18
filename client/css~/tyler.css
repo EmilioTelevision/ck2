@@ -13,25 +13,9 @@ padding-top: 100px;
 z-index: 3;
 position: relative;
 }
-.tyler_right {
-float: right;
-position: relative;
-top: 200px;
-z-index: 4;
-width:450px;
-}
-.tyler_right h2 {
-background: url('../../images/big_name.png') no-repeat;
-width:372px;
-height:116px;
-font-size:30px;
-text-align:center;
-line-height:4.2;	
-}
+
 .tyler_right img.beerman {
-border:6px solid #0069aa;
-margin-left:90px;
-position: absolute;
+
 top: -125px;
 z-index: -1;
 }
