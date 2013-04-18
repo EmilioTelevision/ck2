@@ -1,0 +1,23 @@
+#car_wrap {
+
+top: 200px;
+}
+.car_pic {
+background: url('../../images/bluecar.png') no-repeat;
+width:630px;
+height:507px;	
+float:right;
+}
+.car_left {
+float: left;
+padding-top: 100px;
+z-index: 3;
+position: relative;
+}
+.car_right {
+float: right;
+position: relative;
+top: 23px;
+z-index: 4;
+}
+
