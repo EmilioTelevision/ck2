@@ -1,0 +1,66 @@
+<template name="pricing_3">
+	<div class="row_container" style="">	
+		
+		<div class="row_left slogan">
+			<h2 style="font-size: 38px;">Order with Google Checkout!</h2>
+			<h1><b>Cancel Any Time.</b></h1>
+			
+			<form method="POST" action="https://checkout.google.com/api/checkout/v2/checkoutForm/Merchant/772138553136742" accept-charset="utf-8" style="margin-bottom:100px;">
+
+				<input type="hidden" name="shopping-cart.items.item-1.item-name" value="5 Liter Weekly Kombucha Keg Refill"/>
+				<input type="hidden" name="shopping-cart.items.item-1.item-description" value="One 5L Keg Weekly Refill and Replacement"/>
+				<input type="hidden" name="shopping-cart.items.item-1.unit-price.currency" value="USD"/>
+				<input type="hidden" name="shopping-cart.items.item-1.unit-price" value="0.00"/>
+				<input type="hidden" name="shopping-cart.items.item-1.quantity" value="1"/>
+
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.type" value="google"/>
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.period" value="WEEKLY"/>
+
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.payments.subscription-payment-1.times" value="156">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.payments.subscription-payment-1.maximum-charge" value="55.00">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.payments.subscription-payment-1.maximum-charge.currency" value="USD">
+
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.item-name" value="5 Liter Weekly Kombucha Keg Refill">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.item-description" value="One 5L Keg Weekly Refill and Replacement">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.quantity" value="1">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.unit-price" value="55.00">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.unit-price.currency" value="USD">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.digital-content.display-disposition" value="OPTIMISTIC">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.digital-content.url" value="http://www.consciouskombucha.com">
+				<input type="hidden" name="shopping-cart.items.item-1.subscription.recurrent-item.digital-content.description" value="Look out for a Blue Smart Car delivering your Kombucha refills on Mondays!">
+
+				<input type="hidden" name="shopping-cart.items.item-1.digital-content.display-disposition" value="OPTIMISTIC">
+				<input type="hidden" name="shopping-cart.items.item-1.digital-content.description" value="Congratulations! Your Conscious Kombucha Subscription is all Setup!">
+
+				<input type="hidden" name="shopping-cart.items.item-2.item-name" value="Conscious Kombucha Countertop Draft System">
+				<input type="hidden" name="shopping-cart.items.item-2.item-description" value="One-time Charge for the Conscious Kombucha Countertop Draft System">
+				<input type="hidden" name="shopping-cart.items.item-2.unit-price" value="250.00">
+				<input type="hidden" name="shopping-cart.items.item-2.unit-price.currency" value="USD">
+				<input type="hidden" name="shopping-cart.items.item-2.quantity" value="1">
+				<input type="hidden" name="_charset_"/>
+
+				<input type="submit" name="Google Checkout" alt="Fast checkout through Google" style="display:block; border:none;padding-top: 0px;font-size:16px;" class="learn" value="PLACE ORDER"/>
+
+			</form>
+			
+		</div>
+		
+		<div class="row_right">
+			<img src="/images/keg_face-2.png" style="width: 454px;">
+		</div>
+
+
+		<div style="clear:both"></div>
+		<div class="radial_light_new"></div>
+		
+		
+		
+	
+		
+		
+		
+		<div class="radial_light_new radial_light_left"></div>
+	</div>
+</template>
+
+
