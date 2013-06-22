@@ -3,10 +3,10 @@ padding-left: 12px;
 width:960px;
 margin:0 auto;
 position: relative;
-padding-top: 125px;
+padding-top: 25px;
 }
 .kombucha {
-background: url('../../images/blue_tap.png') no-repeat;
+background: url('../../images/tap-1.png') no-repeat;
 width:368px;
 height:500px;	
 float:right;
@@ -24,19 +24,22 @@ right: 80px;
 top: -60px;
 z-index: 4;
 }
-.learn {
+a.learn, .learn {
 background: url('../../images/lrnmre.png') 0 0 no-repeat;
 width:175px;
 height: 58px;
 font-size:22px;
 color:white;
 text-align:center;
-line-height:2.2;
-text-shadow: 1px 2px rgb(0, 0, 0);
+line-height: 2.2;
+text-shadow: 2px 2px rgb(48, 69, 114);
 margin-top: 43px;	
 
+display: block;
 }
 .learn:hover {
+cursor:pointer;
+color:white;
 background: url('../../images/lrnmre.png') 0 -59px no-repeat;
 }
 .tool_tip {

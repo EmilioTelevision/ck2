@@ -1,9 +1,7 @@
 #contact_wrap {
-height: 718px;
 width:100%;	        
-padding-top: 20px;
 position: relative;
-top: 200px;
+height: 718px;
 }
 #credits {
 width:960px;
@@ -19,10 +17,57 @@ background: rgba(255, 255, 255, 0.61);
 -webkit-border-radius: 4px;
 border-radius: 4px;
 border:1px solid rgba(29, 69, 99, 0.29);
--webkit-box-shadow: -2px 2px 6px rgba(50, 50, 50, 0.61);
--moz-box-shadow:    -2px 2px 6px rgba(50, 50, 50, 0.61);
-box-shadow:         -2px 2px 6px rgba(50, 50, 50, 0.61);
+
+
+-webkit-animation-name: glowz;
+-webkit-animation-duration: .85s;
+-webkit-animation-timing-function: ease-in-out;
+-webkit-animation-iteration-count: infinite;
+-webkit-animation-direction: alternate;
+-webkit-animation-delay: 0;
+-webkit-animation-fill-mode: none;
+
+-moz-animation-name: glowz;
+-moz-animation-duration: .85s;
+-moz-animation-timing-function: ease-in-out;
+-moz-animation-iteration-count: infinite;
+-mozkit-animation-direction: alternate;
+-moz-animation-delay: 0;
+-moz-animation-fill-mode: none;
+
+animation-name: glowz;
+animation-duration: .85s;
+animation-timing-function: ease-in-out;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-delay: 0;
+animation-fill-mode: none;
+
+
+background: url('/images/diagonal-noise.png') repeat;
 }
+
+
+
+@-webkit-keyframes glowz {
+    0% {-webkit-box-shadow: 0px 0px 8px 1px #0069aa;}
+    100% {-webkit-box-shadow: 0px 0px 65px 1px #0069aa;}
+}
+
+@-moz-keyframes glowz {
+    0% {-webkit-box-shadow: 0px 0px 8px 1px #0069aa;}
+    100% {-webkit-box-shadow: 0px 0px 65px 1px #0069aa;}
+}
+
+
+@keyframes glowz {
+    0% {-webkit-box-shadow: 0px 0px 8px 1px #0069aa;}
+    100% {-webkit-box-shadow: 0px 0px 65px 1px #0069aa;}
+}
+
+
+
+
 
 #page-wrap p.charles {
 font-size: 30px;
@@ -34,17 +79,18 @@ line-height: 1;
 margin-top:15px;
 }
 #contact_wrap #page-wrap .contact_tag {
-font-size: 16px;
-color:black;
+font-size: 32px;
+color: black;
 text-shadow: none;
-font-weight:bold;
+font-weight: bold;
 font-family: "PT Sans", sans-serif;
-width: 686px;
+width: 850px;
 text-align: center;
-line-height:1.4;
-margin-top: 12px;
-margin-bottom:26px;
-margin-left:119px;
+line-height: 1.12;
+text-shadow: 1px 1px 1px white;
+margin: 12px auto 26px;
+
+text-align: justify;
 }
 #address {
 float:left;

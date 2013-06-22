@@ -33,6 +33,8 @@ line-height: 1.4;
 width:100%;
 height:100%;
 overflow-x: hidden;
+overflow: hidden;
+padding-bottom: 40px;
 }
 
 h1 {
@@ -48,12 +50,21 @@ text-shadow: 2px 2px 5px black;
 }
 a, a:link {
 text-decoration:none;
-color:#686969;
 background-color:none;
 }
-a:hover {
+#header_wrap a, #footer_wrap a{
+color:#686969;
+z-index: 5;
+position: relative;
+}
+
+#header_wrap a:hover, #header_wrap a.active, #footer_wrap a:hover, #footer_wrap a.active {
 color:#0069aa;	
 }
+#header_wrap #ribbon a, #header_wrap #ribbon a:hover {
+    color:white;    
+}
+
 img.beerman, img.beerman_low {
 border:6px solid #0069aa;
 margin-left:90px;
@@ -87,6 +98,7 @@ background:#d7d7d7;
    box-shadow:         inset 0 0 15px rgba(0, 0, 0, 0.15);	
 padding:10px;
 margin-bottom:20px;
+text-shadow: 1px 1px 1px white;
 }
 .white {
 background:#f7f7f7;
@@ -119,7 +131,7 @@ padding-left: 12px;
 width:960px;
 margin:0 auto;
 position: relative;
-padding-top:125px;
+padding-top: 0px;
 }
 #left {
 float: left;

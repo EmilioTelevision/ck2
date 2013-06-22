@@ -1,38 +1,96 @@
-
 <head>
 	<link href='http://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<div id="container">
-		{{>ribbon}}
-		{{>header}}
-		{{>kombucha}}
-		{{>bar}}
-		{{>keg_face}}
-		{{>contact}}
-		{{>the_start}}
-		{{>the_light}}
-		{{>the_crash}}
-		{{>the_impact}}
-		{{>the_change}}
-		{{>the_tea}}
-		{{>the_brew}}
-		{{>more_brew}}
-		{{>future}}
-		{{>future_two}}
-		{{>future_three}}
-		{{>tyler}}
-		{{>blue_tap}}
-		{{>two_kegs}}
-		{{>keg_drink}}
-		{{>drinks}}
-		{{>co2}}
-		{{>country}}
-		{{>cocktail}}
-		{{>restaurants}}
-		{{>old_tap}}
-		{{>for_bars}}
-		{{>car}}
-		{{>footer}}
+
+		{{#constant}}
+			<div id="chomper_top"><div id="header_glow"></div></div>
+			{{>header}}
+		{{/constant}}
+		
+		<div style="height: 100px;"></div>
+		<div id="main_content" style="display:none;">
+			{{renderPage}}
+		</div>
+		
+		{{#constant}}
+			{{>footer}}
+			<div id="chomper_bottom"><div id="footer_glow"></div></div>
+		{{/constant}}
 	</div>
 </body>
+
+
+
+
+
+<template name="page_home">
+	{{>home_1}}
+	{{>home_2}}
+	{{>home_3}}
+	{{>home_4}}
+	{{>home_5}}
+	{{>home_6}}
+	{{>home_7}}
+</template>
+
+
+<template name="page_story">
+	{{>story_1}}
+	{{>story_2}}
+	{{>story_3}}
+	{{>story_4}}
+	{{>story_5}}
+</template>
+
+<template name="page_kombucha">
+	{{>kombucha_1}}
+	{{>kombucha_2}}
+	{{>kombucha_3}}
+	{{>kombucha_4}}
+	{{>kombucha_5}}
+	{{>kombucha_6}}
+</template>
+
+<template name="page_order">
+	{{>order_1}}
+	{{>order_2}}
+</template>
+
+<template name="page_bars">
+	{{>bars_1}}
+	{{>bars_2}}
+	{{>bars_3}}
+	{{>bars_4}}
+	{{>bars_5}}
+</template>
+
+<template name="page_restaurants">
+	{{>restaurants_1}}
+	{{>restaurants_2}}
+	{{>restaurants_3}}
+	{{>restaurants_4}}
+	{{>restaurants_5}}
+</template>
+
+<template name="page_offices">
+	{{>offices_1}}
+	{{>offices_2}}
+</template>
+
+<template name="page_pricing">
+	{{>pricing_1}}
+	{{>pricing_2}}
+	{{>pricing_3}}
+</template>
+
+<template name="page_sales">
+	{{>sales_1}}
+</template>
+
+
+
+

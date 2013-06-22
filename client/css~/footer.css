@@ -2,13 +2,16 @@
 position: fixed;
 bottom: 0;
 width: 100%;
-background: url('../../images/foot2.png') center top no-repeat;
+background: url('../../images/footer_noglow.png') center top no-repeat;
 height: 148px;
-z-index: 5;
+z-index: 6;
 }
 #footer {
-width:960px;
+width: 960px;
 margin:0 auto;
+position:relative;
+height: 148px;
+overflow: hidden;
 }
 .flavors, .products, .locations, .purchase {
 width:220px;
@@ -19,6 +22,8 @@ line-height:4;
 font-size:22px;
 font-weight:normal;
 margin-top:50px;
+position: relative;
+z-index: 3;
 }
 .search {
 width: 74px;
@@ -41,10 +46,11 @@ margin-left:70px;
 border-bottom:none;	
 }
 .footer_logo {
-float:right;
 width:360px;
 height:69px;
 background: url('../../images/logo-3.png') center top no-repeat;
 cursor:pointer;
-margin-top:-60px;
+position: absolute;
+right: 0;
+top: 70px;
 }

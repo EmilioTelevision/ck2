@@ -1,7 +1,8 @@
 #drinks {
 margin:0 auto;
 width:1121px;
-padding-top: 500px;
+padding-top: 60px;
+height: 410px;
 }
 .menu {
 background: url('../../images/recipe_bg.png') no-repeat;	
@@ -59,8 +60,8 @@ margin-right:-20px;
 .hot_t .drink_one {
 background: url('../../images/collage_onecopy.png') 0 0 no-repeat;	
 height:422px;
-width:304px;
-margin-top:-108px;	
+width:304px;	
+margin-top: -108px;
 }
 .hot_t .drink_one:hover {
 background: url('../../images/collage_onecopy.png') 0 -422px no-repeat;	
