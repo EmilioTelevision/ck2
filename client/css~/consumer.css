@@ -1,0 +1,62 @@
+.buddha {
+position:relative;
+z-index:3;
+}
+#flavor {
+text-align: center;
+font-size: 30px;
+margin-top: -20px;
+}
+.yoga_head {
+background: url('../../images/new_yoga.png') no-repeat;
+width: 275px;
+height: 335px;	
+margin: 0 auto;
+margin-top: 20px;
+}
+.buddha li {
+    margin-bottom: 18px;
+	
+}
+.list_l, .list_r {
+text-align:center;	
+position: absolute;
+color: white; text-shadow: 1px 1px black;	
+z-index: 2;
+}
+.list_l a:hover, .list_r a:hover {
+color:#0069aa;	
+}
+.list_l {	
+float:left;
+top: 138px;
+left: 312px;	
+margin-bottom: 10px;
+z-index: 2;
+}
+.list_r {	
+top: 138px;
+left: 50%;	
+margin-left: 131px;
+}
+.list_l a, .list_r a {
+color: white;
+text-decoration: none;
+}
+.flavor_profile {
+color: white;
+text-shadow: 1px 1px black;
+width: 750px;
+text-align: center;
+margin: 0 auto;
+
+}
+
+
+
+
+
+
+
+
+
