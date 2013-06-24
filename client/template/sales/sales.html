@@ -1,8 +1,6 @@
 <template name="sales_1">
 	
-	<div class="row_container" style="height:620px; padding-top:50px;">
-		<div id="sales_logo"></div>
-			<img class="enlightened" src="../../../images/sales_enlightened.png" width="289" height="36" alt="Sales Enlightened">
+	
 		<div class="row_left">
 			<div class="person">
 				<ul class="left_list">
@@ -16,13 +14,13 @@
 					<a href="/"><li>Energy</li></a>
 					<a href="/"><li>Purpose</li></a>
 				</ul>
-				<div class="left_button">
+				<a href="/consumer" class="{{active 'consumer'}}"><div class="left_button">
 					<img src="../../../images/user_icon.png" width="32" height="33" alt="User Icon">
 					<div class="left_question">
 						<h4>Are you a</h4> 
-						<h3>business?</h3>
+						<h3>Person?</h3>
 					</div>
-				</div>
+				</div></a>
 			</div>
 		</div>
 		
@@ -33,7 +31,7 @@
 					<img src="../../../images/sales_shop.png" width="32" height="33" alt="Sales Shop">
 					<div class="right_question">
 						<h4>Are you a</h4> 
-						<h3>business?</h3>
+						<h3>Business?</h3>
 					</div>
 				</div>
 			</div>
@@ -43,9 +41,9 @@
 		<div style="clear:both"></div>
 		<div class="radial_light_new"></div>
 		<div class="sales_pitch">
-			<p>Why drink Kombucha? Because juice is for children! Our “Enlightened Tea” is a clean & fizzy fermented beverage that embraces a sweet yet sour bite, with a tangy taste. Cleansing & detoxifying your system, no more menacing caloric sodas or juices. Drink to your health!</p>
+			<p>Why drink Kombucha? Because <strong>juice is for children!</strong> Our <strong>“Enlightened Tea”</strong> is a clean & fizzy fermented beverage that embraces a sweet yet sour bite, with a tangy taste. Cleansing & detoxifying your system, no more menacing caloric sodas or juices. Drink to your health!</p>
 			<img class="dotted_line" src="../../../images/dotted_line.png" width="439" height="1" alt="Dotted Line">
 		</div>
-	</div>
+		
 	
 </template>

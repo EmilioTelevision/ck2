@@ -58,7 +58,7 @@ z-index: 5;
 position: relative;
 }
 
-#header_wrap a:hover, #header_wrap a.active, #footer_wrap a:hover, #footer_wrap a.active {
+#header_wrap a:hover, #header_wrap a.active, #footer_wrap a:hover, #footer_wrap a.active, .person a:hover, .person a.active {
 color:#0069aa;	
 }
 #header_wrap #ribbon a, #header_wrap #ribbon a:hover {

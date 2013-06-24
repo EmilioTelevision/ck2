@@ -2,12 +2,13 @@
 #sales_logo {
 background: url('../../images/sales_logo.png') no-repeat;
 width: 505px;
-height: 107px;
+height: 161px;
 margin: 0 auto;
 }
 .enlightened {
-    margin-left: 107px;
-
+position: relative;
+top: 106px;
+left: 122px;
 }
 
 .person {
@@ -19,7 +20,7 @@ background-color: #25292d;
 box-shadow: 1px 5px 5px rgba(23,23,23,.75);
 position: relative;
 left: 200px;
-top: 84px;
+top: 30px;
 }
 .business {
 width: 263px;
@@ -29,9 +30,11 @@ background-clip: padding-box;
 background-color: #fff;
 box-shadow: 1px 5px 5px rgba(23,23,23,.75);
 right: 200px; 
-top: 84px;
+top: 30px;
 position: relative;
 
+}
+.business:hover {
 -webkit-animation-name: glowz;
 -webkit-animation-duration: .85s;
 -webkit-animation-timing-function: ease-in-out;
@@ -70,14 +73,12 @@ margin: 0 auto;
 .right_button {
 width: 265px;
 height: 64px;
-background: url('../../images/big_button.png') no-repeat;
+background: url('../../images/button_sprite.png') 0 0 no-repeat;
 margin-top: 18px;
 margin-left: -1px;
 }
 .right_button:hover {
-width: 265px;
-height: 64px;
-background: url('../../images/big_hover.png') no-repeat;
+background: url('../../images/button_sprite.png') 0 -64px no-repeat;
 }
 .right_button h3,.right_button h4,.left_button h3,.left_button h4 {
 text-shadow: 2px 2px 3px rgba(255,255,255,0.1);
@@ -94,7 +95,7 @@ font-size: 22pt;
 }
 .right_button img, .left_button img{
 margin-top: 13px;
-margin-left: 10px;
+margin-left: 20px;
 }
 .right_question {
 margin-top: -41px;
@@ -108,13 +109,11 @@ font-family: 'PT Sans', sans-serif;;
 .left_button {
 width: 265px;
 height: 64px;
-background: url('../../images/big_button.png') no-repeat;
+background: url('../../images/button_sprite.png') 0 0 no-repeat;
 margin-top: 48px;
 }
 .left_button:hover {
-width: 265px;
-height: 64px;
-background: url('../../images/big_hover.png') no-repeat;
+background: url('../../images/button_sprite.png') 0 -64px no-repeat;
 }
 .left_list {
 text-align:center;	
@@ -143,8 +142,8 @@ margin: 0 auto;
 top: 26px;
 }
 .sales_pitch {
-position: absolute;
-bottom: 18px;
+position: relative;
+top: 75px;
 color: white;
 text-shadow: 1px 1px black;
 width: 750px;
@@ -153,6 +152,15 @@ margin-left: 122px;
 }
 .dotted_line {
 
+}
+
+.copyright {
+color: white;
+text-shadow: 1px 1px black;	
+text-align:center;
+position:absolute;
+bottom: 1px;
+left:37%;
 }
 
 

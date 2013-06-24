@@ -6,6 +6,28 @@
 <body>
 	<div id="container">
 
+	
+		
+		
+		<div id="main_content" style="display:none;">
+			<div class="row_container" style="height:700px; ">
+				<div id="sales_logo">
+					<img class="enlightened" src="../../../images/sales_enlightened.png" width="289" height="36" alt="Sales Enlightened">
+				</div>
+					
+					{{renderPage}}
+				<p class="copyright">Copyright ConsciousKombucha.com</p>
+			</div>
+		</div>
+		
+	
+	</div>
+	
+</body>
+
+<template name="shutters">
+	<div id="container">
+
 		{{#constant}}
 			<div id="chomper_top"><div id="header_glow"></div></div>
 			{{>header}}
@@ -13,7 +35,7 @@
 		
 		<div style="height: 100px;"></div>
 		<div id="main_content" style="display:none;">
-			{{renderPage}}
+			
 		</div>
 		
 		{{#constant}}
@@ -21,9 +43,24 @@
 			<div id="chomper_bottom"><div id="footer_glow"></div></div>
 		{{/constant}}
 	</div>
-</body>
+</template>
+<template name="page_">
 
 
+		{{#constant}}
+			<div id="chomper_top"><div id="header_glow"></div></div>
+			{{>header}}
+		{{/constant}}
+		
+		<div style="height: 100px;"></div>
+		
+		
+		{{#constant}}
+			{{>footer}}
+			<div id="chomper_bottom"><div id="footer_glow"></div></div>
+		{{/constant}}
+
+</template>
 
 
 
@@ -89,6 +126,10 @@
 
 <template name="page_sales">
 	{{>sales_1}}
+</template>
+
+<template name="page_consumer">
+	{{>consumer}}
 </template>
 
 
