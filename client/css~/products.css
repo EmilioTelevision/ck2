@@ -2,11 +2,16 @@
 position: relative;
 top: 90px;
 }
-.p1,.p2, .p3, .p3, .p4, .p5, .p6 {
-height: 500px;	
+.p1,.p2, .p3, .p3, .p4, .p5, .p6, .p7 {
+height: 600px;	
 }
 
-.p2 {
-    margin-top: 61px;
+.buy {
+    float: right;
 	
+}
+
+.ck_select {
+
+
 }
